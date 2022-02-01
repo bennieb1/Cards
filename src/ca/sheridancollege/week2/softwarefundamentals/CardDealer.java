@@ -16,10 +16,16 @@ public class CardDealer
     public static void main(String[] args)
     {
         Card nineClubs = new Card("Clbs", 9);
-        nineClubs.setSuit("diamonds");
+        nineClubs.setSuit(" Diamonds");
         
         Card rand = new Card("Hrts", 11); 
         rand.setSuit("Hearts");
         System.out.println(rand);
+        
+        Card rand2 = new Card("Dim", 3);
+        rand2.setSuit("Clubs");
+        System.out.print(rand2);
+        
+        
     }
 }
