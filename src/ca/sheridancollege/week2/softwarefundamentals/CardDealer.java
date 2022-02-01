@@ -17,5 +17,8 @@ public class CardDealer
     {
         Card nineClubs = new Card("Clbs", 9);
         nineClubs.setSuit("diamonds");
+        
+        Card rand = new Card("Hrts", 11); 
+        rand.setSuit("Hearts");
     }
 }
