@@ -20,5 +20,6 @@ public class CardDealer
         
         Card rand = new Card("Hrts", 11); 
         rand.setSuit("Hearts");
+        System.out.println(rand);
     }
 }
